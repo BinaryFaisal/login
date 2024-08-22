@@ -87,6 +87,6 @@ form>p>a{
 @media screen and (width <= 576px) {
     .login{
         font-size: 12px;
-        border-radius: 30px;
+        border-radius: 20px;
     }
 }
