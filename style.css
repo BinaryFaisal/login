@@ -51,7 +51,9 @@ form{
     color: rgba(51, 51, 51, 1);
     padding: 10px;
 }
-
+.input_container i{
+    color: rgb(120, 120, 120);
+}
 #phone, #password{
     border: none;
     margin-left: 10px;
