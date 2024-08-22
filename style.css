@@ -22,16 +22,15 @@ body{
     font-family: "Lato", sans-serif;
     width: min(90vw,400px);
     padding: min(10vw, 100px);
-    margin: 10vw;
+    margin: 5vw;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 60px;
+    border-radius: 40px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 16px;
-
 }
 
 .login h2{
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 900;
     color: rgba(52, 52, 52, 1);
 }
@@ -83,4 +82,11 @@ form>p>a{
     color: rgba(198, 5, 19, 1);
     text-decoration: none;
     font-weight: bold;
+}
+
+@media screen and (width <= 576px) {
+    .login{
+        font-size: 12px;
+        border-radius: 30px;
+    }
 }
