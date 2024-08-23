@@ -50,11 +50,10 @@ form{
 .input_container i{
     color: rgb(120, 120, 120);
 }
-#phone, #password{
+
+.login_container input{
     border: none;
     margin-left: 5px;
-}
-.login_container input{
     padding: 10px;
     width: 85%;
 }
