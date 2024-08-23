@@ -17,13 +17,8 @@
     height: 100vh;
 }
 
-.pass{
-    display: flex;
-    justify-content: space-between;
-}
 
 .login{
-    box-sizing: content-box;
     font-family: "Lato", sans-serif;
     width: min(90vw,400px);
     padding: min(10vw, 100px);
@@ -49,14 +44,23 @@ form{
     margin: 20px 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.65);
     color: rgba(51, 51, 51, 1);
-    padding: 10px;
+    width: 100%;
+    position: relative;
 }
 .input_container i{
     color: rgb(120, 120, 120);
 }
 #phone, #password{
     border: none;
-    margin-left: 10px;
+    margin-left: 5px;
+}
+.login_container input{
+    padding: 10px;
+    width: 85%;
+}
+
+input:focus{
+    outline: 0;
 }
 
 input[type="submit"]{
@@ -69,19 +73,16 @@ input[type="submit"]{
 	color: white;
     margin: 20px 0px;
     font-size: 1.2em;
-    font-weight: 500;
-}
-
-.eye:hover{
+    font-weight: 600;
     cursor: pointer;
 }
 
-input[type="submit"]:hover{
+.eye{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    display: none;
     cursor: pointer;
-}
-
-input:focus{
-    outline: 0;
 }
 
 form>p{
