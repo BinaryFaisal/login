@@ -100,6 +100,7 @@ form>p>a{
 .error{
     background-color: #c605122e;
     display: flex;
+    flex-direction: column;
     gap: 5px;
     justify-content: center;
     align-items: center;
@@ -111,7 +112,11 @@ form>p>a{
     margin: 10px 0px;
     text-align: center;
 }
-
+@media (min-width: 440px){
+    .error{
+        flex-direction: row;
+    }
+}
 /* New Error Messege end */
 
 
